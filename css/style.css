@@ -1,0 +1,187 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background: #E5E5E5;
+}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.main-title {
+  color: #9db0d1;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Arapey', serif;
+  margin: 100px 0 50px 0;
+}
+p {
+width: 1024px;
+height: 48px;
+font-family: 'Verdana', normal;
+font-size: 20px;
+text-align: center;
+margin: 50px auto;
+}
+
+.btn-main {
+  background: #EBAC87;
+  border-radius: 10px;
+  border: 0;
+  padding: 24px 50px;
+  text-transform: uppercase;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  color: #ffffff
+}
+.check-box1{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #9DB0D1;
+}
+.caption{
+  width: 1440px;
+  height: 200px;
+  background: url("../img/clouds.png") repeat-x top / auto 200px,
+  linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 250px 120px 100px;
+  margin: 50px auto;
+  font-family: 'Arapey', serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.block-01{
+  width: 350px;
+  height: 560px;
+  flex-grow: 0;
+  padding: 420px 70px 20px 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: 'Verdana', normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.block-02{
+  width: 350px;
+  height: 560px;
+  flex-grow: 0;
+  padding: 420px 70px 20px 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: 'Verdana', normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.block-03{
+  width: 350px;
+  height: 560px;
+  flex-grow: 0;
+  padding: 420px 70px 20px 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: 'Verdana', normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.text-01 
+{
+  font-family: 'Verdana', normal;
+  font-size: 20px;
+  width: 260px;
+  text-align: left;
+  margin: 394px 75px 560px 120px;
+  }
+
+.image {
+  width: 310px;
+  height: 310px;
+  background: #EBAC87;
+}
+.image img {
+  width: 100%;
+}
+.white-title {
+  color: #ffffff;
+  width: 600px;
+  line-height: 44px;
+  font-size: 40px;
+  font-family: 'Arapey', serif;
+  text-align: start; 
+}
+.important {
+  font-weight: bold;
+}
+.text-02 {
+  font-family: 'Verdana', normal;
+  font-size: 20px;
+  width: 260px;
+  text-align: left;
+
+}
+.text-03 {
+  font-family: 'Verdana', normal;
+  font-size: 20px;
+  width: 260px;
+  text-align: left;
+}
+
+.screen{
+Width: 1440px;
+Height: 1047px;
+margin: 0px auto;
+background: #87C6EB url("../img/photo04.png") no-repeat  right bottom / auto 475px; 
+
+}
